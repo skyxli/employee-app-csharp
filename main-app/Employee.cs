@@ -20,8 +20,8 @@ namespace mainapp
 
         public int Age
         {
-           public get { return age; }
-           private set { age = value; }
+            get { return age; }
+            set { age = value; }
         }
 
         public Employee(string firstName, string lastName)
