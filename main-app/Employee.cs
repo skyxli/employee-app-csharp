@@ -56,7 +56,7 @@ namespace mainapp
 
         public override string ToString()
         {
-            return String.Format("Employee{{{0},{1}}}", firstName, lastName + " Moe Dee");
+            return String.Format("Employee{{{0},{1}}}", firstName, lastName);
         }
 
         public object GetFullName()
