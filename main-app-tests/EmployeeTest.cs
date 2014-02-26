@@ -39,7 +39,7 @@ namespace mainapp
         [TestCategory("Unit"), TestMethod]
         public void TestToString()
         {
-            Employee employee = new Employee("Johnn", "Kennedy");
+            Employee employee = new Employee("John", "Kennedy");
             Assert.AreEqual(employee.ToString(), "Employee{John,Kennedy}");
         }
 
